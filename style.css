@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('https://cdn.discordapp.com/attachments/1143125309672132622/1143163874103791668/-1.png');
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    color: #789922;
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #789922;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ddd;
+    margin-right: 10px;
+}
+
+input[type="text"]::placeholder {
+    color: #789922;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #789922;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c7e17;
+}
